@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <script type="text/javascript" src="../javascript/funcoes.js"></script> 
+    <link rel="stylesheet" href="../css/style.css">
+    <h1>Calculadora</h1>
+</head>
+
+<body>
+    <div>
+         <form>
+            <input type="text" id="icampoNumerico" placeholder = "0"/><br><br>
+        </form>
+    
+        <button id="soma" onclick="operacao('+')">Somar</button>
+        <button id="subtracao" onclick="operacao('-')">Subtrair</button>
+        <button id="multiplicacao" onclick="operacao('*')">Multiplicar</button>
+        <button id="divisao" onclick="operacao('/')">Dividir</button><br>
+    
+        <button id="potencia" onclick="operacao('^')">Potencia</button>
+        <button id="raiz" onclick="operacao('root')">Raiz</button>
+        <button id="seno" onclick="operacao('sin')">Seno</button>
+        <button id="cosseno" onclick="operacao('cos')">Cosseno</button><br>
+    
+        <button id="tangente" onclick="operacao('tan')">Tangente</button>
+        <button id="modulo" onclick="operacao('mod')">Módulo</button>
+        <button id="logaritimo" onclick="operacao('log')">Logarítimo</button><br>        
+        <button id="limpeza" onclick="limparCampo()">Limpar</button><br>
+    </div>
+</body>
+
+</html>
